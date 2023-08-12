@@ -1,5 +1,6 @@
 package app.model;
 
+@Component
 public class Dog extends Animal {
 
     @Override
