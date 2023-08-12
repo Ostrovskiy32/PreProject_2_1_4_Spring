@@ -12,17 +12,4 @@ import java.security.DigestException;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
-    @Bean(name = "dog")
-    public Dog getDog() {
-        Dog dog = new Dog();
-        dog.toString();
-        return dog;
-    }
-    @Bean(name = "time")
-    public Timer getTimer() {
-        Timer timer = new Timer();
-        timer.getTime();
-        return timer;
-    }
-
 }
